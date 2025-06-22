@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/d588323df8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/genel.css" />
+  <link rel="stylesheet" href="css/login.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <title>Login</title>
+  <style>
+    /* Ortalanmış içerik için genel düzen */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Giriş butonunun ortalanması */
+    #button {
+      margin-top: 1rem;
+      width: 100%;
+      max-width: 200px; /* Maksimum genişlik ayarı */
+    }
+
+    /* Beni hatırla kısmı */
+    #remember {
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    /* Register ve Help linklerini yan yana ortalamak için */
+    .links-container {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem; /* Linkler arasındaki mesafeyi ayarlama */
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    /* Linklere stil eklemek */
+    .links-container a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div>
+      <a class="logo" href="index.html"> <i class="fas fa-dog"></i> NAUGHTY DOG</a>
+    </div>
+  </nav>
+
+  <main>
+    <form action="php/login.php" method="post">
+      <div class="container">
+        <input type="text" name="username" placeholder="Kullanıcı Adı" required />
+        <input type="password" name="password" placeholder="Password" required />
+
+        <input id="button" type="submit" name="Giriş" value="Giriş" />
+
+
+
+        <!-- Register ve Help linklerini yan yana ve ortalanmış şekilde -->
+        <div class="links-container">
+          <a href="register.html" style="margin-right: 1.5rem;">Register</a>
+          <a href="../contact-us.html">Help</a>
+        </div>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

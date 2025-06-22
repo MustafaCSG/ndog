@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Purchase</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href=".css/Purchase.css" />
+    <link rel="stylesheet" href="./.css/media.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d588323df8.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing:border-box;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a class="logo" href="index.html"> <i class="fas fa-dog"></i> NAUGHTY DOG</a>
+        </div>
+    </nav>
+    <main>
+        <form>
+            <div class="left-purchase">
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="text" name="Surname" placeholder="Surname" required>
+                <input type="email" value="@gmail.com" name="email" required>
+                <input type="text" name="address" placeholder="Address" required>
+                <input type="text" name="post-code" placeholder="Post code" required>
+                <input type="text" name="Card-no" placeholder="Card no" required>
+                <input type="text" name="expiration date" placeholder="expiration date: mm/yy" required>
+                <input type="text" name="***" placeholder="***" required>
+            </div>
+            <div class="right-purchase">
+                <img src="img/credit-card.png" alt="credit-card">
+            </div>
+            <div class="clear-fix"></div>
+            <div id="button">
+                <button onclick="html:alert('Well Done')">
+                Purchase
+                </button>
+                <br><br>
+                <button onclick="html:print('Well Done')">
+                    Print
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
