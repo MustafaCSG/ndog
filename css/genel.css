@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+html{
+    font-size:16px;
+}
+body{
+    font-size:1rem;
+    font-family:'Lato' , sans-serif;
+    background-color:black;
+}
+p {
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.clear-fix {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    margin:1rem auto;
+    width:70%;
+}
+/*Nav*/
+nav {
+    background: rgba(0,0,0,0.6);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index:3;
+    position:sticky;
+    top:1rem;
+    width: 95%;
+    height: auto;
+    padding: 0.5rem;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+    overflow: auto;
+    -moz-box-shadow: 0.3rem 0.3rem 0.1rem 0 rgba(0,0,0,.6);
+    -webkit-box-shadow: 0.3rem 0.3rem 0.1rem 0 rgba(0,0,0,.6);
+    box-shadow: 0.3rem 0.3rem 0.1rem 0 rgba(0,0,0,.6);
+    border-left: 0.5px solid rgba(255, 0, 0, 0.226);
+}
+.logo{
+    font-family:kungfont;
+    color:white;
+    font-weight: 500;
+    font-size:2rem;
+    margin-right:2rem;
+    margin-left: 1.5rem;
+    -o-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    transition:all 0.5s;
+    display:inline-block;
+    float:left;
+}
+.logo i{
+    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+nav a{
+    color:white;
+    font-weight: 500;
+    font-size:2rem;
+    margin-left: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -o-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    transition:all 0.5s;
+    display:inline-block;
+    float:left;
+}
+nav a i{
+    font-size:1.6rem;
+}
+nav a:hover{
+    opacity: 0.8;
+}
