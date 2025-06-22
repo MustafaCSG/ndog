@@ -1,0 +1,226 @@
+html{
+    font-size:16px;
+}
+body{
+    font-size:1rem;
+    font-family:'Lato' , sans-serif;
+    background-color:black;
+    max-height: 1080px;
+}
+p {
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.clear-fix {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    margin:1rem auto;
+    width:70%;
+}
+/*Nav*/
+nav {
+    background: rgba(0,0,0,0.6);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index:3;
+    position:sticky;
+    top:1rem;
+    width: 95%;
+    height: auto;
+    padding: 0.5rem;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+    overflow: auto;
+    -moz-box-shadow: 0.3rem 0.3rem 0.1rem 0 rgba(0,0,0,.6);
+    -webkit-box-shadow: 0.3rem 0.3rem 0.1rem 0 rgba(0,0,0,.6);
+    box-shadow: 0.3rem 0.3rem 0.1rem 0 rgba(0,0,0,.6);
+    border-right: .5px solid rgba(255, 0, 0, 0.2);
+    border-left: .5px solid rgba(255, 0, 0, 0.2);
+}
+nav div div{
+    margin-left: 3rem;
+}
+.logo{
+    font-family:kungfont;
+    color:white;
+    font-weight: 500;
+    font-size:2rem;
+    margin-right:2rem;
+    margin-left: 1.5rem;
+    -o-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    transition:all 0.5s;
+    float:left;
+}
+.logo i{
+    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.log-reg a{
+    box-sizing: border-box;
+    float: right;
+    font-size: 2rem;
+    font-weight: 300;
+    margin:0 0.5rem;
+}
+nav a{
+    color:white;
+    font-weight: 500;
+    font-size:2rem;
+    margin-left: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -o-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    transition:all 0.5s;
+    float:left;
+}
+nav a i{
+    font-size:1.6rem;
+}
+nav a:hover{
+    opacity: 0.8;
+}
+/*main*/
+main{
+    width: 80%;
+    margin: 1rem auto;  
+}
+.sss{
+    width: 30%;
+    height: auto;
+    float: left;
+    padding:1rem;
+    border-top:1px solid rgba(255, 255, 255, 0.86);
+}
+#sys-rec{
+    display: none;
+    border-bottom:1px solid rgba(255, 255, 255, 0.733);
+    margin-bottom: 0.4rem;
+}
+#sys-rec1{
+    display: none;
+    border-bottom:1px solid rgba(255, 255, 255, 0.733);
+    margin-bottom: 0.4rem;
+}
+.sss ul li a{
+    border-bottom:1px solid rgba(255, 255, 255, 0.733);
+    margin-bottom: 0.4rem;
+    display: block;
+}
+.sss a{
+    color: white;
+    font-size: 1rem;
+}
+.sss a:hover{
+    opacity: 0.8;
+}
+li:hover  #sys-rec{
+    display: block;
+    text-align: center;
+}
+li:hover  #sys-rec1{
+    display: block;
+    text-align: center;
+}
+.Developer{
+    width: 70%;
+    height: auto;
+    float: left;
+    padding: 1rem;
+    color: white;
+    border-top:1px solid rgba(255, 255, 255, 0.86);
+    border-left:1px solid rgba(255, 255, 255, 0.86);
+}
+.about{
+    width: 70%;
+    height: auto;
+    float: left;
+    padding: 1rem;
+    color: white;
+    border-top:1px solid rgba(255, 255, 255, 0.86);
+    border-left:1px solid rgba(255, 255, 255, 0.86);
+}
+.about h3{
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+/*display*/
+.Developer{
+    display: none;
+}
+
+/*mini footer*/
+#mini-footer{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.3rem;
+    background-color: red;
+}   
+#mini-footer p{
+    font-size: 1.28rem;
+    display: inline-block;
+}
+.social-media{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.social-media i{
+    margin-left: 2rem;
+    transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    cursor: pointer;
+}
+.social-media i:hover{
+    color:rgba(255, 255, 255, 0.65);
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgba(43, 43, 43, 0.6);
+    overflow: auto;
+}
+.footer-div{
+    text-align: center;
+    width: 50%;
+    padding: 5rem;
+    float: left;
+    color: white;
+    cursor:pointer;
+}
+.footer-div img{
+    width: 8rem;
+    height: 8rem;
+    pad: 1rem;
+}
+.div-img{
+    float: left;
+    width: 50%;
+    cursor: pointer;
+}
+.div-img img:hover{
+    opacity: 0.7;
+}
+.div-img img[src="img/8.jpg"]{
+    height: 6rem;
+    margin-left: 0.6rem;
+}
